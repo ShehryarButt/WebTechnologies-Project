@@ -1,1 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weight Recommender</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div id="auth-section">
+            <h2>Welcome</h2>
+            <div class="form-group">
+                <input type="text" id="username" placeholder="Username">
+                <input type="password" id="password" placeholder="Password">
+            </div>
+            <button onclick="login()">Login</button>
+            <button onclick="signup()">Sign Up</button>
+            <p id="auth-message"></p>
+        </div>
 
+        <div id="app-section" style="display: none;">
+            <h2>Weight Recommender</h2>
+            <p>Welcome, <span id="display-name">User</span>!</p>
+            
+            <div class="calculator-box">
+                <div class="input-group">
+                    <label>Height (cm):</label>
+                    <input type="number" id="height" placeholder="e.g. 175">
+                </div>
+                <div class="input-group">
+                    <label>Weight (kg):</label>
+                    <input type="number" id="weight" placeholder="e.g. 70">
+                </div>
+                
+                <button onclick="calculateRecommendation()">Get Recommendation</button>
+                
+                <div id="result" class="result-box"></div>
+            </div>
+            
+            <button class="logout-btn" onclick="logout()">Logout</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
