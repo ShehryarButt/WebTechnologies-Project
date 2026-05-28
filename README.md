@@ -1,22 +1,6 @@
 # WebTechnologies-Project
 Web Technologies (Course) Project
 
-
-Conversation with Gemini
-Could you write me a README.md on this files of my Web technologies Project
-
-Your MD file is ready.
-MD icon
- README 
-MD
-
-I've generated a comprehensive README.md file for your Weight Recommender web technologies project. It includes an overview of the project, features, technologies used, file structure breakdowns, and instructions for setup and usage. Let me know if you would like any specific additions or modifications!
-
-
-
-
-Your University of Management and Technology chats aren’t used to improve our models. Gemini is AI and can make mistakes. Your privacy & GeminiOpens in a new window
-
 # Weight Recommender Web App
 
 ## Overview
